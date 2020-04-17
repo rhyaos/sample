@@ -1,0 +1,353 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height: 1;
+    margin: 20px 200px;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.container{
+  width: 80%;
+  /* width: 80%; */
+  margin: 0 auto;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+header{
+  /* background-color: pink; */
+  padding-bottom: 17px;
+}
+
+.header1{
+  /* background-color: saddlebrown; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo{
+  /* background-color: purple; */
+}
+
+.header-info{
+  /* display: inline-block; */
+  /* background-color: blue; */
+  display: flex;
+}
+
+.header-txt{
+  /* background-color: orange; */
+  /* display: inline-block; */
+  /* height: 40px; */
+  /* float: right; */
+  padding-right: 10px;
+}
+
+
+.header-txt span{
+  display: block;
+  line-height: 20px;
+}
+
+.header-btn{
+  float: right;
+  display: inline-block;
+  /* height: 40px; */
+  line-height: 40px;
+  border-radius: 3px;
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  margin: 0;
+}
+
+
+.main-img{
+  text-align: center;
+  height: 300px;
+  background-image: url(../img/sky.jpg);
+  background-size: cover;
+}
+
+.main-img h1{
+  line-height: 300px;
+  color: gray;
+}
+
+.start{
+  height: 40px;
+  background-color: #aaa;
+  text-align: center;
+  color: white;
+}
+
+.start h3{
+  line-height: 40px;
+}
+
+.sankaku{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #aaaaaa transparent transparent transparent;
+  margin: 0 auto;
+}
+
+.navis{
+  height: 250px;
+  /* background-color: blue; */
+  text-align: center;
+}
+
+.container-navi{
+  display: inline-block;
+  width: 30%;
+  /* background-color: crimson; */
+}
+
+.navi{
+  display: inline-block;
+  /* background-color: burlywood; */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 1px black;
+  margin-top: 40px;
+}
+
+.navi p{
+  width: 120px;
+  padding-top: 55px;
+  margin: 0 auto;
+  position: relative;
+  line-height: 20px;
+}
+
+.navi p:after{
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  transform: translateX(-50%) rotate(45deg);
+  content: "";
+}
+
+.main-contents{
+  /* height: 900px; */
+  /* background-color: darkolivegreen; */
+}
+
+.contents{
+  background-color: salmon;
+  display: flex;
+}
+
+.contents-img-g{
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  /* height: 300px; */
+}
+
+.contents-txt-g{
+  box-sizing: border-box;
+  padding: 30px 20px;
+  display: inline-block;
+  width: 50%;
+  background-color: gray;
+  margin: 0;
+  /* height: 280px; */
+  float: left;
+}
+
+.contents-txt-g p{
+  padding-top: 20px;
+}
+
+.contents-img{
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  /* height: 30%; */
+  float: left;
+}
+
+.contents-txt{
+  box-sizing: border-box;
+  padding: 30px 20px;
+  display: inline-block;
+  width: 50%;
+  background-color: gray;
+  margin: 0;
+  /* height: 280px; */
+}
+
+.contents-txt p{
+  padding-top: 20px;
+}
+
+.form{
+  /* height: 160px; */
+  /* background-color: blueviolet; */
+  text-align: center;
+  /* padding-top: 40px; */
+  margin: 40px auto;
+}
+
+.form-box{
+  background-color: gray;
+  height: 70px;
+  padding-top: 30px;
+}
+
+.form-line{
+  /* background-color: darkslategray; */
+  height: 40px;
+}
+
+.form-tel{
+  display: inline-block;
+  height: 32px;
+  /* background-color: darksalmon; */
+  float: left;
+  padding-top: 8px;
+  padding-bottom: 0;
+  width: 40%;
+  margin-left: 10%;
+}
+
+.form-tel span{
+  display: block;
+  
+}
+
+.f-btn{
+  width:200px;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 3px;
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  margin-right: 10%;
+}
+
+
+.f-tel{
+  font-size: 15px;
+}
+
+.f-time{
+  font-size: 10px;
+}
+
+footer{
+  /* height: 10px; */
+  /* padding: 20px 0; */
+  background-color: gray;
+  /* margin-bottom: 10px; */
+}
+
+footer p{
+  font-size: 5px;
+  padding: 10px 0;
+  padding-left: 10%;
+  /* background-color: pink; */
+  /* padding-top: 10px; */
+}
