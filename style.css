@@ -156,7 +156,7 @@ header{
 .main-img{
   text-align: center;
   height: 300px;
-  background-image: url(../img/sky.jpg);
+  background-image: url(sky.jpg);
   background-size: cover;
 }
 
